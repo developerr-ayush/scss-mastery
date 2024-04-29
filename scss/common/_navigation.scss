@@ -1,0 +1,31 @@
+nav{
+    padding: 10px;
+    ul{
+        padding-left: 0;
+        list-style: none;
+    }
+    li{
+        padding: 10px;
+        a{
+            font-size: 20px;
+            color: red;
+            text-decoration: none;
+        }
+    }
+}
+.navbar{
+    height: 100px;
+    &-list{
+        list-style: square;
+        &-item{
+            margin: 10px;
+        }
+    }
+    &-anchor{
+        text-decoration: none;
+        color:red;
+        &:hover{
+            color:blue;
+        }
+    }
+}

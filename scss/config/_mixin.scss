@@ -1,0 +1,8 @@
+@mixin heading($size:null,$text){
+    .#{$text}{
+        font-size: $size;
+        color: red;
+        text-align: center;
+        font-weight: 900;
+    }
+}

@@ -1,0 +1,43 @@
+body {
+  margin: 50px;
+  padding: 50px;
+}
+
+nav {
+  padding: 10px;
+}
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+nav li {
+  padding: 10px;
+}
+nav li a {
+  font-size: 20px;
+  color: red;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+}
+.navbar-list {
+  list-style: square;
+}
+.navbar-list-item {
+  margin: 10px;
+}
+.navbar-anchor {
+  text-decoration: none;
+  color: red;
+}
+.navbar-anchor:hover {
+  color: blue;
+}
+
+.heading {
+  background-color: rgba(122, 122, 122, 0.5);
+  font-size: 22px;
+  color: var(--red);
+}/*# sourceMappingURL=map/style.css.map */

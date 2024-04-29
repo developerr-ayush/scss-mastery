@@ -1,0 +1,6 @@
+@use "../config/" as *;
+
+body{
+    margin: $marginSize;
+    padding: $marginSize;
+}

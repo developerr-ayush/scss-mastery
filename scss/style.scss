@@ -1,0 +1,19 @@
+@use "sass:string";
+@use "./config/" as *;
+@forward "./common/";
+
+$font : false;
+$space:(
+    1:(4px,8px),
+    2:8px,
+    3:12px,
+    4:16px,
+);
+$spacee:(4px,8px,12px,16px);
+@debug not false; 
+
+.heading{
+    background-color:rgb(#7a7a7a,0.5); 
+    font-size: calc(10px + 12px);
+    color:v(red)
+}
