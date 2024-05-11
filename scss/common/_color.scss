@@ -1,0 +1,9 @@
+@use "../config/" as *;
+@each $color-key,$color-value in $colors{
+    .#{$color-key}{
+        color:$color-value
+    }
+    .bg-#{$color-key}{
+        background-color:$color-value
+    }
+}

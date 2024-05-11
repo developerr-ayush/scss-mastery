@@ -1,0 +1,13 @@
+@use "../config/" as *;
+.container-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    @each $key,$value in $container{
+        @include mq($key){
+            max-width: $value;
+        }
+    }
+}

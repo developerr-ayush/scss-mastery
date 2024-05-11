@@ -1,0 +1,33 @@
+$colors:(
+    primary:#ffbe0b,
+    secondary:#fb5607,
+    tertiary:#ff006e,
+    accent:#8338ec,
+    error:#DC143C,
+    warn:#FFD700,
+    info:#4169E1,
+    light:#fff,
+    dark:#000,
+);
+$direction:(
+    t:top,
+    r:right,
+    b:bottom,
+    l:left,
+    x:inline,
+    y:block,
+);
+$container:(
+    sm:540px,
+    md:720px,
+    lg:960px,
+    xl:1140px,
+    xxl:1320px,
+);
+$breakpoints:(
+    sm:576px,
+    md:768px,
+    lg:992px,
+    xl:1200px,
+    xxl:1400px
+);

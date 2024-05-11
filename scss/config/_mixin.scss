@@ -1,8 +1,27 @@
+@use "map" as *;
 @mixin heading($size:null,$text){
     .#{$text}{
         font-size: $size;
         color: red;
         text-align: center;
         font-weight: 900;
+    }
+}
+@mixin text($cat:null){
+    @if $cat == cateogry{
+        font-size: 20px;
+    }@else if($cat == travel) {
+        font-size: 14px;
+    }@else{
+        font-size: 10px;
+    }
+}
+@mixin mq($breakpoint){
+    $media : map-get( $breakpoints,  $breakpoint);
+    @if $media == null {
+        @error please write a valid breakpoint;
+    }
+    @media (min-width:$media){
+       @content;
     }
 }

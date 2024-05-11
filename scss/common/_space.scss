@@ -1,0 +1,18 @@
+@use "../config/" as *;
+@for $index from 1 through 10{
+    $space :$index * 0.4rem;
+    @each $key,$value in $direction{
+        .m#{$key}-#{$index}{
+            margin-#{$value}:$space;
+        }
+        .p#{$key}-#{$index}{
+            padding-#{$value}:$space;
+        }
+    }
+    .m-#{$index}{
+        margin: $space;
+    }
+    .p-#{$index}{
+        padding: $space;
+    }
+}
